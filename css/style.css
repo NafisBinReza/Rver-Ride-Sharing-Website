@@ -1,4 +1,18 @@
-#header-navbar .navbar-brand img{
+#header-navbar .navbar-brand img {
     height: 30px;
     width: 30px;
 }
+
+
+/* Banner Part Css Start */
+#banner{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 200px;
+}
+
+
+
+/* Banner Part Css End */
