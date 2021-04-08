@@ -87,16 +87,80 @@
     <!-- Promo Part Starts-->
     <div id="promo">
         <div class="container">
-            <div class="col-lg-6">
-                <div class="promo_content">
-                    <img src="images/promo_pic1.jpg" alt="">
-                    <h3>Convenient</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolores autem reiciendis, nisi
-                        quod voluptatem. Expedita tenetur quas tempore? Minus.</p>
+            <div class="section_title">
+                <h2>Convenient, Safe</h2>
+            </div>
+            <div class="d-flex">
+                <div class="col-lg-6">
+                    <div class="promo_content">
+                        <img src="images/promo_pic1.jpg" alt="">
+                        <h3>Convenient</h3>
+                        <p>Rickshaws are everywhere in Bangladesh and it is one of the main transportation system which
+                            we all use regularly. It's small form factor opens up more exploration.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="promo_content">
+                        <img src="images/promo_pic2.jpg" alt="">
+                        <h3>Safe</h3>
+                        <p>Accident rate of rickshaws is very low and negligible. Due to Rickshaw's slow speed, it is
+                            less fatal. Our drivers are well trained to ensure safe journey.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Promo Part Starts-->
+
+
+    <!-- Offers Part Starts-->
+
+    <div id="offer">
+        <div class="container">
+            <div class="section_title">
+                <h2>Offers</h2>
+            </div>
+            <div class="d-flex">
+                <div class="col-lg-6">
+                    <div class="offer_content">
+                        <div class="img">
+                            <img src="images/offer_pic2.jpg" alt="" class="image">
+                            <div class="img_overlay">BOGO</div>
+                        </div>
+                        <p><b>Code:</b> KLMHB</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="offer_content">
+                        <div class="img">
+                            <img src="images/offer_pic1.jpg" alt="" class="image">
+                            <div class="img_overlay">50% OFF</div>
+                        </div>
+                        <p><b>Code:</b> JHBMB</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5 mb-4">
+                <a href="#">More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offers Part Ends-->
+
+    <!-- Fleet Part Starts-->
+
+    <div id="fleet">
+        <div class="container">
+            <div class="section_title">
+                <h2>Fleet</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Fleet Part Ends-->
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"

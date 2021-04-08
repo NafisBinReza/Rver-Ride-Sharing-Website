@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     outline: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -14,25 +15,35 @@ a{
     text-decoration: none;
     
 }
+
 ul,ol{
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 h1,h2,h3,h4,h5,h6{
     padding: 0;
     margin: 0;
     font-family:'Oswald', sans-serif;
 }
+
 p{
   padding: 0;
   margin: 0;
 }
 
+.section_title h2{
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+
 /* Nav Part Css Start */
 #header-navbar .navbar-brand img {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
 }
 /* Nav Part Css Start */
 
@@ -50,16 +61,17 @@ p{
 }
 
 #banner .banner_content{
-    padding: 70px 0;
+    padding: 150px 0;
 }
 
 #banner h1{
     font-size: 60px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 #banner p{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 22px;
 }
 
@@ -81,14 +93,88 @@ p{
     padding: 30px 0;
 }
 
+
 #promo .promo_content{
-    align-items: center;
     text-align: center;
+    margin: 0 10px;
 }
+
+#promo .promo_content h3{
+    margin: 10px 0;
+} 
 
 #promo img{
     height: 300px;
     width: 300px;
 }
 
+
 /* Promo Part Css End */
+/* Offer Part Css Start*/
+
+#offer{
+    padding: 30px 0;
+    background-color:  #F4F1EB;
+}
+
+#offer .offer_content{
+    text-align: center;
+    margin: 0 10px;
+    justify-content: center;
+}
+
+#offer .offer_content p{
+    color: white;
+    padding: 20px 0px;
+    font-size: 20px;
+    background: cornflowerblue;
+}
+
+#offer .offer_content .img{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+#offer .offer_content .img .image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#offer .offer_content .img .img_overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#offer .img:hover .img_overlay{
+  opacity: 1;
+}
+
+#offer a{
+    padding: 20px 40px;
+    border: 1px solid cornflowerblue;
+    border-radius: 20%;
+    background: cornflowerblue;
+    color: white;
+}
+/* Offer Part Css End */
+
+/* Fleet Part Css Start */
+#fleet{
+    padding: 30px 0;
+}
+
+
+/* Fleet Part Css End*/
