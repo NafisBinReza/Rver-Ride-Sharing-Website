@@ -57,7 +57,7 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Chat</a></li>
+                                <li><a class="dropdown-item" href="Chat App/index.php">Chat</a></li>
                             </ul>
                         </li>
 
@@ -83,8 +83,8 @@
                         journey.
                     </p>
                     <ul class="d-flex justify-content-start">
-                        <li><a href="#">Ride</a></li>
-                        <li><a href="#">Earn</a></li>
+                        <li><a href="Chat App/index.php">Ride</a></li>
+                        <li><a href="Chat App/index.php">Earn</a></li>
                     </ul>
                 </div>
             </div>
