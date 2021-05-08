@@ -188,6 +188,54 @@ p {
 
 /* Offer Part Css End */
 
+/* About part css start */
+
+#about {
+    padding: 30px 0;
+}
+
+#about .about_des{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#about .about_des h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#about .about_des p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#about img{
+    height: 450px;
+}
+
+#about .carousel-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* About part css end */
+
+/* Features Part Css Start*/
+
+#features {
+    background-color: #F4F1EB;
+    padding: 30px 0;
+}
+
+#features img {
+    height: 300px;
+    width: 300px;
+}
+
+
+/* Features Part Css End*/
+
 /* Fleet Part Css Start */
 #fleet {
     padding: 30px 0;
@@ -218,42 +266,106 @@ p {
 /* Column Grids */
 /*-=-=-=-=-=-=-=-=-=-=-=- */
 
-.col_half { width: 49%; }
-.col_third { width: 32%; }
-.col_fourth { width: 23.5%; }
-.col_fifth { width: 18.4%; }
-.col_sixth { width: 15%; }
-.col_three_fourth { width: 74.5%;}
-.col_twothird{ width: 66%;}
+.col_half {
+    width: 49%;
+}
+
+.col_third {
+    width: 32%;
+}
+
+.col_fourth {
+    width: 23.5%;
+}
+
+.col_fifth {
+    width: 18.4%;
+}
+
+.col_sixth {
+    width: 15%;
+}
+
+.col_three_fourth {
+    width: 74.5%;
+}
+
+.col_twothird {
+    width: 66%;
+}
+
 .col_half,
 .col_third,
 .col_twothird,
 .col_fourth,
 .col_three_fourth,
-.col_fifth{
-	position: relative;
-	display:inline;
-	display: inline-block;
-	margin-bottom: 20px;
+.col_fifth {
+    position: relative;
+    display: inline;
+    display: inline-block;
+    margin-bottom: 20px;
     background: violet;
 }
-.end { margin-right: 0 !important; }
+
+.end {
+    margin-right: 0 !important;
+}
+
 /* Column Grids End */
 
-.counter_container { width: 1300px; margin: 30px auto; position: relative;}
-.counter { background-color: whitesmoke; padding: 40px 0; border-radius: 5px;}
-.count-title { font-size: 40px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
-.count-text { font-size: 20px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
-.fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
+.counter_container {
+    width: 1300px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.counter {
+    background-color: whitesmoke;
+    padding: 40px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
 
 
 
 
 /* Fleet Part Css End*/
 
-/* Features Part Css Start*/
 
 
 
+/* Footer part css start */
 
-/* Features Part Css End*/
+#footer{
+    padding: 30px 0;
+    background-color: #2a2a2a;
+}
+
+#footer .footer_content h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Footer part css end */

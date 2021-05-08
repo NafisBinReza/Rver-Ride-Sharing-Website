@@ -17,6 +17,11 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <title>Ride</title>
@@ -153,6 +158,118 @@
 
     <!-- Offers Part Ends-->
 
+    <!-- About part Starts -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section_title">
+                    <h2>About Us</h2>
+                    <p>Learn more about us.</p>
+                </div>
+                <div class="col-lg-6 about_des">
+                    <h4>title</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat itaque labore maiores error
+                        modi, sunt accusantium fugiat. Blanditiis, saepe. Eius quaerat nostrum consequuntur rem optio
+                        assumenda veritatis nam, error corporis autem, dolores impedit recusandae esse numquam incidunt?
+                        Quibusdam, eligendi. Ad hic commodi perspiciatis eveniet eum aperiam iusto repellat, tenetur
+                        neque.
+                    </p>
+                    <a class="btn-lg btn-info" href="#" role="button">Learn More</a>
+                </div>
+                <div class="col-lg-6">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/fleet_pic1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block carousel-overlay">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/fleet_pic5.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block carousel-overlay">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/fleet_pic4.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block carousel-overlay">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About part Ends -->
+
+    <!-- Features Part Starts-->
+
+    <div id="features">
+        <div class="container">
+            <div class="section_title">
+                <h2>Features</h2>
+                <p>Check out our best features!!!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <img src="images/fleet_pic1.jpg" alt="">
+                    <h4 class="mt-3">Title</h4>
+                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero provident vel beatae,
+                        architecto id eligendi ex. Obcaecati animi tenetur minima.</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="images/fleet_pic1.jpg" alt="">
+                    <h4 class="mt-3">Title</h4>
+                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero provident vel beatae,
+                        architecto id eligendi ex. Obcaecati animi tenetur minima.</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="images/fleet_pic1.jpg" alt="">
+                    <h4 class="mt-3">Title</h4>
+                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero provident vel beatae,
+                        architecto id eligendi ex. Obcaecati animi tenetur minima.</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="images/fleet_pic1.jpg" alt="">
+                    <h4 class="mt-3">Title</h4>
+                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero provident vel beatae,
+                        architecto id eligendi ex. Obcaecati animi tenetur minima.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Features Part Ends-->
+
     <!-- Fleet Part Starts-->
 
     <div id="fleet">
@@ -199,18 +316,67 @@
 
 
     <!-- Fleet Part Ends-->
-    <!-- Features Part Starts-->
 
-    <div id="features">
+
+    <!-- Footer Part Starts -->
+
+    <div id="footer">
         <div class="container">
-
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-center text-white footer_content">
+                        <div class="d-flex justify-content-center">
+                            <i class="fas fa-map-marker-alt" style="font-size: 25px; margin-right: 8px;"></i>
+                            <h4>Address</h4>
+                        </div>
+                        <p>House #432/433, <br>
+                            Road #03, <br>
+                            Adabor, <br>
+                            Dhaka
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center text-white footer_content">
+                        <div class="d-flex justify-content-center">
+                            <i class="fas fa-phone" style="font-size: 25px; margin-right: 8px;"></i>
+                            <h4>Contact</h4>
+                        </div>
+                        <p>Phone: 01521409824 <br>
+                            Email: nafisbinreza@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4"><i class=""></i>
+                    <div class="text-center text-white footer_content">
+                        <div class="d-flex justify-content-center">
+                            <i class="fas fa-external-link-alt" style="font-size: 25px; margin-right: 8px;"></i>
+                            <h4>Important Links</h4>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="www.facebook.com" style="color: white;"><i class="fab fa-facebook"
+                                    style="font-size: 17px; margin-right: 5px;"></i></a>
+                            <p>Facebook</p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="www.linkedin.com" style="color: white;"><i class="fab fa-linkedin"
+                                    style="font-size: 17px; margin-right: 5px;"></i></a>
+                            <p>Linked In</p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="www.github.com" style="color: white;"><i class="fab fa-github"
+                                    style="font-size: 17px; margin-right: 5px;"></i></a>
+                            <p>Github</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
 
 
-    <!-- Features Part Ends-->
-
+    <!-- Footer Part Ends -->
 
 
 
