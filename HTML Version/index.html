@@ -24,7 +24,7 @@
 
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
-    <title>Ride</title>
+    <title>RVER</title>
 </head>
 
 <body>
@@ -63,8 +63,9 @@
 
                     </ul>
                     <div class="d-flex">
-                        <button class="btn btn-outline-success" style="margin-right:10px" type="submit">Sign Up</button>
-                        <button class="btn btn-outline-success" type="submit">Log In</button>
+                        <a href="Chat App/index.php"><button class="btn btn-outline-success" style="margin-right:10px" type="submit">Sign Up</button></a>
+                        <a href="Chat App/login.php"><button class="btn btn-outline-success" style="margin-right:10px" type="submit">Login</button></a>
+
                     </div>
                 </div>
             </div>
