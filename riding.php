@@ -45,8 +45,9 @@
                             echo $_POST['ride_type'];
                             echo " people is ";
                             echo (rand(20, 80));
+                            echo " tk.";
                         } else {
-                            echo "0";
+                            echo "0 tk";
                         }
                         ?>
                     </h1>
