@@ -369,3 +369,121 @@ p {
 }
 
 /* Footer part css end */
+
+/* Estimator part start */
+
+#estimator .form_container{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#estimator form{
+    width: 400px;
+}
+
+#estimator form .btn{
+    width: 380px;
+    margin: 10px;
+}
+
+#estimator form label{
+    margin: 10px;
+}
+
+#estimator .result{
+    width: 636px;
+    height: 364px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Estimator part end */
+
+/* Banner about part start */
+
+#about_banner {
+    background: url(../images/about-us-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about_banner_overlay {
+    background: rgba(0, 0, 0, 0.603);
+}
+
+#about_banner .banner_content {
+    padding: 150px 0;
+}
+
+#about_banner h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#about_banner p {
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+#about_banner a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Banner about part end */
+
+/* Banner CEO part start */
+
+#banner_ceo {
+    background: url(../images/ceo_letter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.banner_overlay_ceo {
+    background: rgba(0, 0, 0, 0.603);
+}
+
+#banner_ceo .banner_content {
+    padding: 150px 0;
+}
+
+#banner_ceo h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#banner_ceo p {
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+#banner_ceo a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Banner ceo part end */
