@@ -40,7 +40,7 @@
         </div>
       </form>
       <div class="link">Already signed up? <a href="login.php">Login now</a></div>
-      <!-- <div class="link">Want to chat later? <a href="../index.php">Go Back</a></div> -->
+      <div class="link">Want to chat later? <a href="../index.php">Go Back</a></div>
     </section>
   </div>
 
