@@ -9,7 +9,7 @@
 <body>
   <div class="wrapper">
     <section class="form signup">
-      <header>Chat</header>
+      <header>Realtime Chat App</header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="name-details">
@@ -40,7 +40,7 @@
         </div>
       </form>
       <div class="link">Already signed up? <a href="login.php">Login now</a></div>
-      <div class="link">Want to chat later? <a href="../index.php">Go Back</a></div>
+      <!-- <div class="link">Want to chat later? <a href="../index.php">Go Back</a></div> -->
     </section>
   </div>
 
@@ -49,3 +49,4 @@
 
 </body>
 </html>
+

@@ -26,7 +26,6 @@
         </div>
       </form>
       <div class="link">Not yet signed up? <a href="index.php">Signup now</a></div>
-      <div class="link">Want to chat later? <a href="../index.php">Go Back</a></div>
     </section>
   </div>
   
@@ -35,3 +34,5 @@
 
 </body>
 </html>
+
+<!-- <div class="link">Want to chat later? <a href="../index.php">Go Back</a></div> -->
